@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<views:BaseContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                       x:Class="MapSpanAndImageButtonIssue.Views.ButtonsView"
+                       xmlns:views="clr-namespace:MapSpanAndImageButtonIssue.Views"
+                       xmlns:viewmodels="clr-namespace:MapSpanAndImageButtonIssue.ViewModels"
+                       x:DataType="viewmodels:ButtonsViewModel"
+                       Title="ButtonsView">
+    
+    <VerticalStackLayout>
+        <Button Text="MAP" ImageSource="marker.png" Command="{Binding ButtonCommand}" Margin="100"/>
+
+        <ImageButton Source="marker.png" Command="{Binding ImageButtonCommand}"/>
+    </VerticalStackLayout>
+    
+</views:BaseContentPage>

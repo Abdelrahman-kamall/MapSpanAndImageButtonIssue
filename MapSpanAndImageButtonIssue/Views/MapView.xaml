@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<views:BaseContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                       x:Class="MapSpanAndImageButtonIssue.Views.MapView"
+                       xmlns:maps="clr-namespace:Microsoft.Maui.Controls.Maps;assembly=Microsoft.Maui.Controls.Maps"
+                       xmlns:sensors="clr-namespace:Microsoft.Maui.Devices.Sensors;assembly=Microsoft.Maui.Essentials"
+                       xmlns:views="clr-namespace:MapSpanAndImageButtonIssue.Views"
+                       xmlns:viewmodels="clr-namespace:MapSpanAndImageButtonIssue.ViewModels"
+                       x:DataType="viewmodels:MapViewModel"
+                       Title="MapView">
+
+    <maps:Map>
+        <x:Arguments>
+            <MapSpan>
+                <x:Arguments>
+                    <sensors:Location>
+                        <x:Arguments>
+                            <x:Double>36.9628066</x:Double>
+                            <x:Double>-122.0194722</x:Double>
+                        </x:Arguments>
+                    </sensors:Location>
+                    <x:Double>0.01</x:Double>
+                    <x:Double>0.01</x:Double>
+                </x:Arguments>
+            </MapSpan>
+        </x:Arguments>
+    </maps:Map>
+
+</views:BaseContentPage>
