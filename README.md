@@ -6,7 +6,7 @@ you should aquire an api key as mentioned in the steps in the official docs here
 
 ![api key](/ScreenShots/ApiKey.png?raw=true)
 
-#problem description
+# problem description
 this is the buttons view it simple has a button and an imagebutton to clearify that the problem happens only with the image button 
 
 ![api key](/ScreenShots/ButtonsViewCode.png?raw=true)
