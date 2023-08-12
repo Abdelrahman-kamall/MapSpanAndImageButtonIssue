@@ -36,3 +36,6 @@ but when clicking the image button the map shows as if there is no map span spec
 
 ![wrong map span](/ScreenShots/map2.png?raw=true)
 
+
+additional info that might help , when using the imagebutton case ,if  i have multiple pages when the problem happens if i navigated to another page and then navigated back to the map view directly it will display the correct region
+
