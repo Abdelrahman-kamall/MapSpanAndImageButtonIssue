@@ -2,9 +2,9 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/FFM_MobileSolution/FFM_MobileApp/bin/Debug
-/FFM_MobileSolution/FFM_MobileApp/.vs/FFM_MobileApp.App/FileContentIndex
-/FFM_MobileSolution/FFM_MobileApp/obj
-/FFM_MobileSolution/.vs/FFM_MobileSolution/v17
+/MapSpanAndImageButtonIssue/bin/Debug
+/MapSpanAndImageButtonIssue/.vs/FFM_MobileApp.App/FileContentIndex
+/MapSpanAndImageButtonIssue/obj
+/.vs/FFM_MobileSolution/v17
 .vs/
-/FFM_MobileSolution/FFM_MobileApp/FFM_MobileApp.csproj.user
+/MapSpanAndImageButtonIssue/FFM_MobileApp.csproj.user
